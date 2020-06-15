@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1e2ac9cf-1529-4c4d-85b6-e7308384dd97" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-store/src/helpers/getTotalData.js" beforeDir="false" afterPath="$PROJECT_DIR$/book-store/src/helpers/getTotalData.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/book-store/src/redux/reducers/shopping-cart.js" beforeDir="false" afterPath="$PROJECT_DIR$/book-store/src/redux/reducers/shopping-cart.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -69,7 +67,7 @@
       <workItem from="1591363328072" duration="611000" />
       <workItem from="1591428351369" duration="35000" />
       <workItem from="1592219953313" duration="493000" />
-      <workItem from="1592221244814" duration="1807000" />
+      <workItem from="1592221244814" duration="2197000" />
     </task>
     <servers />
   </component>
