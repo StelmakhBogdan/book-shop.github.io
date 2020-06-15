@@ -2,55 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1e2ac9cf-1529-4c4d-85b6-e7308384dd97" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/redux-curs/src/components/app/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redux-curs/src/components/app/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redux-curs/src/components/book-list-item/book-list-item.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redux-curs/src/components/book-list-item/book-list-item.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redux-curs/src/components/book-list-item/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redux-curs/src/components/book-list/book-list.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redux-curs/src/components/book-list/book-list.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redux-curs/src/components/book-list/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redux-curs/src/components/bookstore-service-context/bookstore-service-context.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redux-curs/src/components/bookstore-service-context/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redux-curs/src/components/hoc/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redux-curs/src/components/hoc/with-bookstore-service.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redux-curs/src/components/pages/about/about.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redux-curs/src/components/pages/about/about.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redux-curs/src/components/pages/about/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redux-curs/src/components/pages/cart-page/cart-page.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redux-curs/src/components/pages/cart-page/cart-page.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redux-curs/src/components/pages/cart-page/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redux-curs/src/components/pages/home-page/home-page.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redux-curs/src/components/pages/home-page/home-page.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redux-curs/src/components/pages/home-page/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redux-curs/src/components/shop-footer/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redux-curs/src/components/shop-footer/shop-footer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redux-curs/src/components/shop-footer/shop-footer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redux-curs/src/containers/book-list-container.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redux-curs/src/containers/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redux-curs/src/helpers/getTotalData.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redux-curs/src/redux/actions/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redux-curs/src/redux/reducers/book-list.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redux-curs/src/redux/reducers/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redux-curs/src/redux/reducers/shopping-cart.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redux-curs/src/redux/store/store.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redux-curs/src/services/bookstore-service.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redux-curs/src/utils/compose.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redux-curs/src/utils/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/redux-curs/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/redux-curs/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/redux-curs/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/redux-curs/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/redux-curs/public/logo192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/redux-curs/public/logo512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/redux-curs/public/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/redux-curs/public/robots.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/redux-curs/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/redux-curs/src/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/redux-curs/src/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/redux-curs/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/redux-curs/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/redux-curs/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/redux-curs/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/redux-curs/src/serviceWorker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/redux-curs/src/setupTests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-store/src/helpers/getTotalData.js" beforeDir="false" afterPath="$PROJECT_DIR$/book-store/src/helpers/getTotalData.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-store/src/redux/reducers/shopping-cart.js" beforeDir="false" afterPath="$PROJECT_DIR$/book-store/src/redux/reducers/shopping-cart.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -59,7 +14,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/redux-curs" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1cRw5l3Ho2F3xs7r08jSb3CVxQD" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -67,6 +22,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="MTConfigurable" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2019.2.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
@@ -112,6 +68,8 @@
       <workItem from="1591353165046" duration="5563000" />
       <workItem from="1591363328072" duration="611000" />
       <workItem from="1591428351369" duration="35000" />
+      <workItem from="1592219953313" duration="493000" />
+      <workItem from="1592221244814" duration="1807000" />
     </task>
     <servers />
   </component>

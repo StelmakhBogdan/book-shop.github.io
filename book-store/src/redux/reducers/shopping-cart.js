@@ -15,7 +15,7 @@ const updateCartItem = (book, item = {}, quantity) => {
 };
 
 const updateCartItems = (cartItems, item, idx) => {
-
+        console.log('cartItems', cartItems);
     if (item.count === 0) {
         return [
             ...cartItems.slice(0, idx),
@@ -44,6 +44,8 @@ const updateOrder = (state, bookId, quantity) =>{
     const itemIndex = cartItems.findIndex(({id}) => id === bookId);
     const item = cartItems[itemIndex];
     const newItem = updateCartItem(book, item, quantity);
+    const totalBookCount = state.bookList.length;
+    console.log(totalBookCount);
 
     const myBasket = books.reduce((item, quantity) =>  {return quantity*item.price}, 0);
 
@@ -51,7 +53,7 @@ const updateOrder = (state, bookId, quantity) =>{
 
     return {
         cartItems: updateCartItems(cartItems, newItem, itemIndex),
-        totalCount: newItem.count,
+        totalCount: totalBookCount,
         totalPriceForOrder: newItem.total
     };
 };
