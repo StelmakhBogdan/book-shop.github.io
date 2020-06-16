@@ -38,22 +38,22 @@ const updateCartItems = (cartItems, item, idx) => {
 
 const updateOrder = (state, bookId, quantity) =>{
     const { bookList: { books }, shoppingCart: { cartItems } } = state;
-
+    console.log(state.shoppingCart.cartItems);
     const book = books.find(({ id }) => id === bookId);
-    const itemIndex = cartItems.findIndex(({id}) => id === bookId);
+    const itemIndex = cartItems.findIndex(({id}) => id === bookId); // found index element where id === bookId
     const item = cartItems[itemIndex];
     const newItem = updateCartItem(book, item, quantity);
-    const totalBookCount = state.cartItems.length;
-    console.log(totalBookCount);
+    console.log('new Item',newItem);
+
 
     return {
         cartItems: updateCartItems(cartItems, newItem, itemIndex),
-        totalCount: updateCartItems(totalBookCount),
-        totalPriceForOrder: newItem.total
+        totalBooksCount: 0,
+        totalPriceForOrder: 0
     };
 };
 
-const updateShoppingCart = (state, action) => {
+const updateShoppingCart = (state, {type, payload}) => {
 
     if (state === undefined) {
         return{
@@ -63,17 +63,17 @@ const updateShoppingCart = (state, action) => {
         }
     }
     // console.log(action.type);
-    switch (action.type) {
+    switch (type) {
 
         case 'BOOK_ADDED_TO_CART':
-            return updateOrder(state, action.payload, 1);
+            return updateOrder(state, payload, 1);
 
         case 'BOOK_REMOVED_FROM_CART':
-            return updateOrder(state, action.payload, -1);
+            return updateOrder(state, payload, -1);
 
         case 'ALL_BOOKS_REMOVED_FROM_CART':
-            const item = state.shoppingCart.cartItems.find(({id}) => id === action.payload);
-            return updateOrder(state, action.payload, -item.count);
+            const item = state.shoppingCart.cartItems.find(({id}) => id === payload);
+            return updateOrder(state, payload, -item.count);
 
         default:
             return state.shoppingCart;

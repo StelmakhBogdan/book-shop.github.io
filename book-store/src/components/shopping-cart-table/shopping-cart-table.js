@@ -8,7 +8,7 @@ import {
     allBooksRemovedFromCart } from '../../redux/actions';
 
 
-const ShoppingCartTable = ({ items, onIncrease, onDecrease, onDelete, totalOrder }) => {
+const ShoppingCartTable = ({ items, onIncrease, onDecrease, onDelete }) => {
 
     const renderRow = (item, idx) => {
         const { id, title, total, count } = item;
@@ -39,19 +39,11 @@ const ShoppingCartTable = ({ items, onIncrease, onDecrease, onDelete, totalOrder
         )
     };
 
-    const  getTotalData = (book) => {
-        let totalCount = 0;
-        let totalPrice = 0;
-        totalCount = totalCount + book.count;
-        totalPrice = totalPrice + book.count*book.price;
-        return (
-            <div className="total" >
-                <h1>{totalCount}</h1>
-                <h1>{totalPrice}$</h1>
-            </div>
-        )
+    const arrTotalPrice = Array.from(items, ({total}) => total);
 
-    };
+    const getSumTotal = arrTotalPrice.reduce(function (accumulator, currentValue) {
+        return accumulator + currentValue;
+    }, 0);
 
     return (
         <div className="shopping-cart-table">
@@ -71,8 +63,7 @@ const ShoppingCartTable = ({ items, onIncrease, onDecrease, onDelete, totalOrder
                 </tbody>
             </table>
             <div className="total">
-                { items.forEach(getTotalData) }
-                {/*Total: {totalOrder}$*/}
+                Total: ${getSumTotal}
             </div>
         </div>
     );

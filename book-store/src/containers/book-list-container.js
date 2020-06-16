@@ -29,11 +29,11 @@ class BookListContainer extends Component {
     };
 }
 
-    const mapStateToProps = ({ bookList: { books, loading, error } }) => {
+const mapStateToProps = ({ bookList: { books, loading, error } }) => {
     return { books, loading, error }
 };
 
-    const mapDispatchToProps = (dispatch, ownProps) => {
+const mapDispatchToProps = (dispatch, ownProps) => {
     const { bookstoreService } = ownProps;
     return bindActionCreators({
         fetchBooks: fetchBooks(bookstoreService),
