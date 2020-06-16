@@ -2,19 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1e2ac9cf-1529-4c4d-85b6-e7308384dd97" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/book-store/src/redux/action-types/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-store/src/redux/reducers/basket.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-store/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/book-store/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-store/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/book-store/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-store/src/components/shop-header/shop-header.js" beforeDir="false" afterPath="$PROJECT_DIR$/book-store/src/components/shop-header/shop-header.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/book-store/src/components/shopping-cart-table/shopping-cart-table.js" beforeDir="false" afterPath="$PROJECT_DIR$/book-store/src/components/shopping-cart-table/shopping-cart-table.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-store/src/containers/book-list-container.js" beforeDir="false" afterPath="$PROJECT_DIR$/book-store/src/containers/book-list-container.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/book-store/src/helpers/getTotalData.js" beforeDir="false" afterPath="$PROJECT_DIR$/book-store/src/helpers/getTotalData.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-store/src/redux/actions/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/book-store/src/redux/actions/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-store/src/redux/reducers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/book-store/src/redux/reducers/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-store/src/redux/reducers/shopping-cart.js" beforeDir="false" afterPath="$PROJECT_DIR$/book-store/src/redux/reducers/shopping-cart.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-store/src/redux/store/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/book-store/src/redux/store/store.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -81,7 +71,7 @@
       <workItem from="1592221244814" duration="2197000" />
       <workItem from="1592233355351" duration="4324000" />
       <workItem from="1592284514140" duration="18111000" />
-      <workItem from="1592305027581" duration="457000" />
+      <workItem from="1592305027581" duration="1747000" />
     </task>
     <servers />
   </component>

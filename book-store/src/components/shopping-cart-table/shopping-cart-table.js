@@ -6,6 +6,7 @@ import {
     bookAddedToCart,
     bookRemovedFromCart,
     allBooksRemovedFromCart } from '../../redux/actions';
+import getTotalData from "../../helpers/getTotalData";
 
 
 const ShoppingCartTable = ({ items, onIncrease, onDecrease, onDelete }) => {
@@ -39,11 +40,11 @@ const ShoppingCartTable = ({ items, onIncrease, onDecrease, onDelete }) => {
         )
     };
 
-    const arrTotalPrice = Array.from(items, ({total}) => total);
-
-    const getSumTotal = arrTotalPrice.reduce(function (accumulator, currentValue) {
-        return accumulator + currentValue;
-    }, 0);
+    // const arrTotalPrice = Array.from(items, ({total}) => total);
+    //
+    // const getSumTotal = arrTotalPrice.reduce(function (accumulator, currentValue) {
+    //     return accumulator + currentValue;
+    // }, 0);
 
     return (
         <div className="shopping-cart-table">
@@ -63,7 +64,7 @@ const ShoppingCartTable = ({ items, onIncrease, onDecrease, onDelete }) => {
                 </tbody>
             </table>
             <div className="total">
-                Total: ${getSumTotal}
+                Total: ${getTotalData(items).totalPrice}
             </div>
         </div>
     );
