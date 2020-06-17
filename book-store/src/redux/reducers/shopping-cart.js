@@ -47,9 +47,7 @@ const updateOrder = (state, bookId, quantity) =>{
 
 
     return {
-        cartItems: updateCartItems(cartItems, newItem, itemIndex),
-        totalBooksCount: 0,
-        totalPriceForOrder: 0
+        cartItems: updateCartItems(cartItems, newItem, itemIndex)
     };
 };
 
@@ -57,9 +55,7 @@ const updateShoppingCart = (state, {type, payload}) => {
 
     if (state === undefined) {
         return{
-            cartItems: [],
-            totalCount: 0,
-            totalPriceForOrder: 0
+            cartItems: []
         }
     }
     // console.log(action.type);

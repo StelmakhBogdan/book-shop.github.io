@@ -3,7 +3,7 @@ const  getTotalData = (books) => {
     let totalPrice = 0;
     books.forEach(item => {
         totalCount = totalCount + item.count;
-        totalPrice = totalPrice + item.count*item.total;
+        totalPrice = totalPrice + item.total;
     });
     return {
         totalCount,

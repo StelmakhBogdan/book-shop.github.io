@@ -41,7 +41,6 @@ const ShoppingCartTable = ({ items, onIncrease, onDecrease, onDelete }) => {
     };
 
     // const arrTotalPrice = Array.from(items, ({total}) => total);
-    //
     // const getSumTotal = arrTotalPrice.reduce(function (accumulator, currentValue) {
     //     return accumulator + currentValue;
     // }, 0);
@@ -70,10 +69,9 @@ const ShoppingCartTable = ({ items, onIncrease, onDecrease, onDelete }) => {
     );
 };
 
-const mapStateToProps = ({ shoppingCart: { cartItems, totalPriceForOrder} }) => {
+const mapStateToProps = ({ shoppingCart: { cartItems } }) => {
     return {
-        items: cartItems,
-        totalOrder: totalPriceForOrder
+        items: cartItems
     };
 };
 

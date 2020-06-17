@@ -3,8 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="1e2ac9cf-1529-4c4d-85b6-e7308384dd97" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-store/src/components/shop-header/shop-header.js" beforeDir="false" afterPath="$PROJECT_DIR$/book-store/src/components/shop-header/shop-header.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/book-store/src/components/shopping-cart-table/shopping-cart-table.js" beforeDir="false" afterPath="$PROJECT_DIR$/book-store/src/components/shopping-cart-table/shopping-cart-table.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/book-store/src/helpers/getTotalData.js" beforeDir="false" afterPath="$PROJECT_DIR$/book-store/src/helpers/getTotalData.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-store/src/redux/reducers/shopping-cart.js" beforeDir="false" afterPath="$PROJECT_DIR$/book-store/src/redux/reducers/shopping-cart.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -72,6 +74,7 @@
       <workItem from="1592233355351" duration="4324000" />
       <workItem from="1592284514140" duration="18111000" />
       <workItem from="1592305027581" duration="1747000" />
+      <workItem from="1592372474697" duration="311000" />
     </task>
     <servers />
   </component>

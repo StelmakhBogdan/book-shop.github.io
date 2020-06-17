@@ -1,24 +1,22 @@
 import React from 'react';
 import { connect } from 'react-redux';
-
-import './shop-header.css';
 import { Link } from 'react-router-dom';
 
-const ShopHeader = ( {totalOrder, items} ) => {
+import './shop-header.css';
+import getTotalData from '../../helpers/getTotalData';
 
-    const arrCount = Array.from(items, ({count}) => count);
-    // console.log('count', arrCount);
-    const arrTotalBookPrice = Array.from(items, ({total}) => total);
-    // console.log('total', arrTotalBookPrice);
+const ShopHeader = ( {items} ) => {
 
-    const getSumCount = arrCount.reduce(function (accumulator, currentValue) {
-        return accumulator + currentValue;
-    }, 0);
-    // console.log('TotalCount:', getSumCount);
-    const getSumTotal = arrTotalBookPrice.reduce(function (accumulator, currentValue) {
-        return accumulator + currentValue;
-    }, 0);
-    // console.log('TotalPrice:', getSumTotal);
+    // Another Method totalPrice and totalCount
+    // const arrCount = Array.from(items, ({count}) => count);
+    // const arrTotalBookPrice = Array.from(items, ({total}) => total);
+    //
+    // const getSumCount = arrCount.reduce(function (accumulator, currentValue) {
+    //     return accumulator + currentValue;
+    // }, 0);
+    // const getSumTotal = arrTotalBookPrice.reduce(function (accumulator, currentValue) {
+    //     return accumulator + currentValue;
+    // }, 0);
 
     return (
       <header className="shop-header row bg-light">
@@ -44,18 +42,16 @@ const ShopHeader = ( {totalOrder, items} ) => {
           <Link className="mt-3" to="/cart">
               <div className="shopping-cart mr-3">
               <i className="cart-icon fa fa-shopping-cart" />
-                  {getSumCount} items ({getSumTotal}$)
+                  {getTotalData(items).totalCount} items ({getTotalData(items).totalPrice}$)
               </div>
           </Link>
       </header>
     );
 };
 
-const mapStateToProps = ({ shoppingCart: { cartItems, totalPriceForOrder, totalBooksCount } }) => {
+const mapStateToProps = ({ shoppingCart: { cartItems } }) => {
     return {
-        items: cartItems,
-        totalOrder: totalPriceForOrder,
-        numItems: totalBooksCount
+        items: cartItems
     };
 };
 
